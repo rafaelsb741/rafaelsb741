@@ -1,0 +1,59 @@
+
+<DOCTYPE html>
+    <html>
+        <head> 
+            <link rel="shortcut icon" type="image/x-icon" href="D:\Pictures\favicon.ico\">
+
+
+            <title>Primeira aula HTML</title>
+            <meta charset="utf-8"/>
+            <meta name="description" content="Página de treino de um simples estudante de programação">
+            <meta name="keywords" content="dev, programação ,css ,html ,JavaScript,C++">
+            <meta name="author" content="Rafael S. Barbosa">
+            <meta name="robots" content="inde, noimageindex">
+
+            <body>
+
+                
+            
+             <div>
+                <h1 id="hungry"> Um sete de maio de dois mil e passado </h1>
+            
+                <p> testando um parágrafo</p>
+                <img src="https://wallpapercave.com/wp/wp2167058.jpg" alt="Uma das imagens mais bonitas da internet" width=650/>
+            <p><video src="https://www.youtube.com/watch?v=vlDOjTaaEdA" controls height="325" preload="auto" autoplay>Nissan GTR Estourando escapamento</video>
+            </p>>
+                <h2><en>Testando o h2</en></h2>
+                <p>testando <q>p</q> dentro do h2</p>
+                <h1>Outro lance aqui</h1>
+                <p>então é <q>isso</q></p>
+                <h1> <p> id="listaalimentos"
+                <ul><li> Limão</li> <li>Maçã</li><li>Pêra</li><li>Arroz</li></ul></p> </h1>
+             </div>
+
+             <div>
+                 <h1> Animais </h1>
+                 <p> Este parágrafo fala de <span style=color:hotpink>animais</span> </p>
+             </div>
+            
+
+            
+             <h1>Minha página</h1>
+             <p id="meuparagrafo">Este é um parágrafo</p>
+             <button id="btnaAlterar">Alterar parágrafo</button>
+             
+             <script>
+                 window.onload = function() {
+                        document.getElementById("btnAlterar").addEventListener("click", function()  {
+                            var meuparagrafo = document.getElementById("meuparagrafo")
+                            meuparagrafo.innerHTML = "Alterei essa merda" 
+                        })
+                    }
+                </script>
+
+
+            </body>
+            
+        </head>
+    </html>
+</DOCTYPE>
